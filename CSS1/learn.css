@@ -1,0 +1,15 @@
+p{
+    background-color: hsl(199, 75%, 47%); color: aqua;
+}
+#step1{
+    background-color: darkorchid; color: ;
+}
+#step2{
+    background-color: darkgreen; color: aquamarine;
+}
+.step3{
+    background-color: cornsilk; color: rgb(124, 72, 8);
+}
+.step{
+    background-color: blue; color: rgb(35, 53, 38);
+}

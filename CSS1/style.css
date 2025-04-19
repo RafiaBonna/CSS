@@ -1,0 +1,26 @@
+p{
+    background-color: hsla(172, 82%, 56%, 0.493); color: rgb(27, 94, 139);
+    font-family: 'Courier New', Courier, monospace;
+} 
+h1{
+    background-color: rgb(30, 70, 143); color: rgb(12, 175, 121);
+}
+#step{
+background-color: rgb(212, 156, 208); color: aqua;
+}
+.step2{
+    background-color: azure; color: brown;
+}
+#step3{
+ background-color: rgba(37, 219, 76, 0.219); color: rgb(201, 81, 173);
+}
+/* group selector */
+h1,h2,p{
+    background-color: rgb(238, 42, 42);
+}
+/* universal selector */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(46, 192, 211);
+}
