@@ -1,0 +1,16 @@
+#rafa{
+background-color: aquamarine; color: azure;
+}
+p{
+    background-color: rgb(9, 27, 20); color: aqua; font-family: 'Times New Roman', Times, serif;
+}
+.safa{
+    background-color: bisque; color: slategrey;
+}
+
+
+#customers{ font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
