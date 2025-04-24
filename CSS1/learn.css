@@ -13,3 +13,11 @@ p{
 .step{
     background-color: blue; color: rgb(35, 53, 38);
 }
+/* group class */
+h1,h2,p{
+    background-color: lightblue; color: blue;
+}
+/* universal selector */
+*{
+  background-color: lavender; color: blueviolet;
+}
