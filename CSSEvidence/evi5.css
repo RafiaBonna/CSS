@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+    height: 70px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    color: brown;   
+}
+nav a:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 5px 5px;
+}
+.search{
+    margin-right: 50px;
+}
+#sidebar-left{
+    float: left;
+    width: 15%;
+    background-color:wheat;
+}
+#main{
+    float: left;
+    width: 85%;
+    background-color: aliceblue;
+}
+.footer{
+    width: 100%;
+    background-color: gainsboro ;
+    text-align: center;
+    color: maroon;
+    float: inline-end;
+    height: 80px;
+    
+}
+#sidebar-left {
+    height: 600px;
+}
+#banner{
+    width: 100%;
+    background-color:  gainsboro ;
+}
+.main-bar{
+    width: 100%;
+}
+.ab{
+    float: left;
+    width: 50%;
+    background-color: rgb(233, 206, 206);
+    height: 196px;
+    text-align: center;
+    color: maroon;
+}
+.ba{
+    float: left;
+    width: 50%;
+    background-color: wheat;
+    color: maroon;
+    height: 196px;
+}
+.sidemenu{
+    width: 100%;
+}
+.sidemenu a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    color: maroon;
+    padding: 10px;
+}
+.sidemenu a:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+}

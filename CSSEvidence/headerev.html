@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+           display: flex;
+           justify-content: space-between; 
+           background-color: rgb(255, 81, 0);
+           align-items: center;
+        }
+        nav{
+            margin-right: 150px;
+        }
+        nav ul{
+            list-style: none;
+        }
+        nav li{
+            display: inline-block;
+        }
+        nav a{
+            text-decoration: none;
+            margin-left: 5px;
+            color: white;
+            display: block;
+            padding: 18px 5px;
+           
+        }
+        nav a:hover{
+            background-color: rgb(39, 66, 216);
+        }
+        .logo img{
+           height: 50px;
+           margin-left: 10px;
+        }
+        .sub{
+            position: relative;
+            display: inline;
+        }
+        .submenu{
+            position: absolute;
+            display: none;
+            top: 15px;
+            right: 0;
+            background-color: aliceblue;
+            width: 30px;
+            height: 40px;
+       .submenu a{
+        display: block;
+       }
+       .submenu a:hover{
+        background-color: antiquewhite;
+        color: blue;
+       }
+       .sub:hover .submenu{
+        display: block;
+       }
+       .search{
+        margin-right: 50px;
+       }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="book-7450399_1920.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <div class="sub">
+                <li><a href="">service</a></li>
+                <div class="submenu">
+                    <a href="">item1</a>
+                    <a href="">item2</a>
+                    <a href="">item3</a>
+                </div>
+            </div>
+            </ul>
+        </nav>
+        <div class="search">
+          <button>Search</button>  <input type="text">
+        </div>
+    </header>
+</body>
+</html>
+<br>
+<br>

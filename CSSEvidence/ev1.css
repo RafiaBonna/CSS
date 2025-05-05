@@ -1,0 +1,62 @@
+#header{
+    background-color: rgb(179, 103, 128);
+    width: 100%;
+    text-align:center ;
+}
+.menu{
+    width: 100%;
+   height: 130px;
+    background-color: lavenderblush;
+    
+}
+.logo{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.logo img{
+    width: 90px;
+    margin-top: 10px;
+}
+.menu-bar{
+    width: 50%;
+    float: left;
+}
+.menu-bar a{
+    text-decoration: none;
+    color:purple;
+    padding: 12px;
+   
+}
+.menu-bar a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+.dropdown{
+display: inline-block;
+position: relative;
+}
+.dropdown-contain{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background-color: lavender;
+    text-align: left;
+    display: none;
+    width: 90px;
+}
+.dropdown-contain a{
+    display: block;
+}
+.dropdown-contain a:hover{
+    background-color:brown;
+    color: white;
+}
+.dropdown:hover .dropdown-contain{
+    display: block;
+}
+.search-bar{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
